@@ -10,10 +10,10 @@ while(chute != numeroSecreto){
     if (chute == numeroSecreto) {
          alert(`Isso ai, Você descobriu o número secreto ${numeroSecreto}`);
     } else {
-    if (chute > numeroSecreto){
+      if (chute > numeroSecreto){
              alert(`O número secreto é menor que ${chute}`);
-    } else {
+      } else {
              alert(`O numero secreto é maior que ${chute} `);
-    }
+      }
     }
 }
