@@ -5,7 +5,7 @@ let chute
 
 //enquanto o chute não for igual ao numero secreto, continue repetindo
 while(chute != numeroSecreto){
-    chute = prompt('Escolha um número entre 1 e 30')
+    chute = prompt('Escolha um número entre 1 e 30');
     // se o chute for igual ao numero secreto, executa uma funçao
     if (chute == numeroSecreto) {
          alert(`Isso ai, Você descobriu o número secreto ${numeroSecreto}`);
