@@ -7,13 +7,13 @@ let chute
 while(chute != numeroSecreto){
     chute = prompt('Escolha um número entre 1 e 30')
     // se o chute for igual ao numero secreto, executa uma funçao
-if (chute == numeroSecreto) {
-    alert(`Isso ai, Você descobriu o número secreto ${numeroSecreto}`);
-} else {
-    if (chute > numeroSecreto){
-        alert(`O número secreto é menor que ${chute}`);
+    if (chute == numeroSecreto) {
+         alert(`Isso ai, Você descobriu o número secreto ${numeroSecreto}`);
     } else {
-        alert(`O numero secreto é maior que ${chute} `);
+    if (chute > numeroSecreto){
+             alert(`O número secreto é menor que ${chute}`);
+    } else {
+             alert(`O numero secreto é maior que ${chute} `);
     }
-}
+    }
 }
