@@ -1,7 +1,7 @@
 alert ('Boas vindas ao jogo do número secreto')
 let numeroSecreto = 29;
-console.log(numeroSecreto)
-let chute 
+console.log(numeroSecreto);
+let chute;
 
 //enquanto o chute não for igual ao numero secreto, continue repetindo
 while(chute != numeroSecreto){
